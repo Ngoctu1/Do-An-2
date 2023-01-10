@@ -62,7 +62,7 @@
 
                     <div class="form-group">
                         <label>Ảnh sản phẩm</label>
-                        <input type="file" name="prd_image" onchange="preview();">
+                        <input type="file" name="prd_image" onchange="preview();" >
                         <img id="prd_image" width="auto" height="170px"
                                     src="/anh/{{ $product-> prd_image }}">
                         
@@ -85,6 +85,8 @@
 <script>
 function preview() {
     prd_image.src = URL.createObjectURL(event.target.files[0]);
+    
+    
 }
 </script>
 @stop

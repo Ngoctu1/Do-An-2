@@ -30,8 +30,8 @@ td a{
 
 }
 td img{
-    width: 80px;
-    height: 80px;
+    width: auto;
+    height: 90px;
     margin-right: 10px;
 }
 .total-price{
@@ -48,4 +48,13 @@ td:last-child{
 }
 th:last-child{
     text-align: right;
+}
+.btnplusminus{
+   color: black;text-decoration: none;
+    border: 0.2rem solid;border-radius: 7px;     padding-left: 6px;
+    padding-right: 3px;font-size: 1.7rem;margin: 1rem; 
+}
+.btnplusminus:hover {
+    background-color: rgb(226, 226, 218);
+    
 }

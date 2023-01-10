@@ -23,7 +23,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                @foreach($product as $product)
+                @foreach($products as $product)
                     <tr>
                         <td>{{$product->prd_detail_id}}</td>
                         <td>{{$product->prd_name}}</td>
@@ -48,9 +48,11 @@
 
                     </tr>
                 @endforeach
+                
                     
                 </tbody>
-            </table>
+                
+            </table>{{ $products->links() }}
         </div>
     </div>
 </div>

@@ -4,7 +4,7 @@
         <div class="mail_section">
             <div class="row">
                 <div class="col-sm-5 col-lg-3">
-                    <div><a href="{{route('users.home')}}" class="logo">
+                    <div><a href="{{route('home')}}" class="logo">
                             <img src="{{ asset('img/pnglogoSneaker.png') }}" height="77px" width="auto">
                         </a></div>
                 </div>
